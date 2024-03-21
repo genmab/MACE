@@ -1,0 +1,63 @@
+Package: MACE
+Title: Malignant Cell annotation
+Version: 0.1.0
+Author: Tamim Abdelaal
+Maintainer: Tamim Abdelaal <taab@genmab.com>
+Description: Annotate tumor vs normal cells in single-cell RNA-sequencing data, using three different methods: CNV-based, Reference-based and Consensus. 
+License: GPL-3.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends:
+    scATOMIC,
+    plyr,
+    dplyr,
+    data.table,
+    randomForest,
+    caret,
+    parallel,
+    reticulate,
+    Rmagic,
+    Matrix,
+    Seurat,
+    agrmt,
+    cutoff.scATOMIC,
+    copykat,
+    ggplot2,
+    yaGST,
+    SCEVAN,
+    R (>= 2.10)
+Imports:
+    data.tree,
+    collapsibleTree,
+    ROCit,
+    set,
+    htmlwidgets,
+    scales,
+    stringr,
+    foreach,
+    doParallel,
+    forcats,
+    magrittr,
+    future,
+    amap,
+    tibble,
+    bbmle,
+    DiagrammeR,
+    parallelDist,
+    pheatmap,
+    methods,
+    fgsea,
+    Rtsne,
+    scran,
+    ape,
+    ggtree,
+    tidytree,
+    ggrepel
+Remotes: 
+    inofechm/cutoff.scATOMIC, 
+    navinlabcode/copykat,
+    abelson-lab/scATOMIC,
+    miccec/yaGST,
+    AntonioDeFalco/SCEVAN
